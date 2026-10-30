@@ -4,12 +4,43 @@
   "items": [
     {
       "type": "news",
-      "title": "MEOW every Tuesday 1530"
+      "title": "MEOW every Tuesday 15:30",
+      "place": "3ö lunch room"
+
     },
-  
+
+
     {
       "type": "news",
-      "title": "Journal Club every Wednesday 1400"
+      "title": "AoP-Fika every Monday at 15:00",
+      "text": "Use the sign-up sheet in the kitchen.",
+      "place": "3ö lunch room"
+
+    },
+
+    {
+      "type": "event",
+      "title": "AoP-fika",
+      "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
+      "date": "2026-11-04",
+      "time": "09:30 ",
+      "place": "Fysik Origo "
+    },
+
+    {
+      "type": "news",
+      "title": "Journal Club every Wednesday 14:00 in Green room"
+    },
+
+    {
+      "type": "event",
+      "title": "FA-fika",
+      "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
+      "date": "2026-11-04",
+      "time": "09:30 ",
+      "place": "Fysik Origo ",
+      "qr": "https://example.com/marten-gas-signup",
+      "qrLabel": "Scan to sign up"
     },
 
     {

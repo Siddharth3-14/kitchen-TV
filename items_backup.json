@@ -33,22 +33,21 @@
     },
     {
       "type": "event",
-      "title": "Mårten Gås lunch",
-      "text": "Black soup and goose, with a vegetarian option. Sign up by Monday 9 November.",
-      "date": "2026-11-11",
-      "time": "12:00",
-      "place": "Restaurant around the corner",
+      "title": "FA-fika",
+      "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
+      "date": "2026-11-04",
+      "time": "09:30 ",
+      "place": "Fysik Origo ",
       "qr": "https://example.com/marten-gas-signup",
       "qrLabel": "Scan to sign up"
     },
     {
       "type": "event",
-      "title": "Julbord",
-      "text": "The Christmas dinner. Save the evening, invitation follows.",
-      "date": "2026-12-11",
+      "title": "AoP Julbord",
+      "date": "2026-12-09",
       "time": "18:00",
-      "place": "To be announced",
-      "qr": "https://example.com/julbord-rsvp",
+      "place": "Villa Belparc",
+      "qr": "https://polls.portal.chalmers.se/polls/bb4d0a4c2d777585d145",
       "qrLabel": "Scan to RSVP"
     }
   ]
