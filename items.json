@@ -1,5 +1,5 @@
 {
-  "boardName": "Kitchen board",
+  "boardName": "Kitchen board Astronomi och Plasma",
   "seconds": 12,
   "items": [
     {
@@ -51,12 +51,24 @@
 
     {
       "type": "event",
-      "title": "AoP-fika",
+      "title": "FA-fika",
       "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
       "date": "2026-11-04",
       "time": "09:30",
       "place": "Fysik Origo"
     },
+
+    {
+      "type": "event",
+      "title": "Christmas dinner",
+      "date": "2026-12-09",
+      "time": "18:00",
+      "place": "Restaurant Villa Belparc",
+      "qr": "https://polls.portal.chalmers.se/polls/bb4d0a4c2d777585d145",
+      "qrLabel": "Scan to sign up"
+    },
+
+
 
     {
       "type": "event",
