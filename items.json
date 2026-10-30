@@ -23,6 +23,7 @@
     {
       "type": "event",
       "title": "Burger day",
+      "text": "Every Thursday only at Cafe Linsen!",
       "repeat": "weekly",
       "day": "Thursday",
       "time": "12:00",
