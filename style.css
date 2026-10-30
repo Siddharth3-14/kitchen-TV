@@ -11,7 +11,13 @@ html,body{height:100%}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);overflow:hidden;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 *{box-sizing:border-box}
-#app{height:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,30vw);gap:2.2vw;padding-block:2.6vw}
+.bg{position:fixed;inset:0;z-index:-1;background-size:cover;background-position:center;opacity:0;transition:opacity 1.2s ease}
+.bg.on{opacity:1}
+.bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,31,29,calc(var(--dim,.6) + .15)) 0%,rgba(15,31,29,var(--dim,.6)) 60%,rgba(15,31,29,calc(var(--dim,.6) - .1)) 100%)}
+body.has-bg .rail{background:rgba(22,43,40,.72);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+body.has-bg .slide h1,body.has-bg .slide p,body.has-bg .facts{text-shadow:0 .15vw .8vw rgba(0,0,0,.45)}
+body.has-bg .datetile{background:rgba(15,31,29,.55)}
+#app{position:relative;height:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,30vw);gap:2.2vw;padding-block:2.6vw}
 .stage{position:relative;display:flex;flex-direction:column;min-width:0}
 .brand{display:flex;align-items:center;gap:.8vw;font:600 1.1vw/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .brand i{width:.7vw;height:.7vw;border-radius:50%;background:var(--event);display:block}
@@ -31,6 +37,8 @@ body{background:var(--bg);color:var(--fg);font-family:var(--body);overflow:hidde
 .kicker{display:flex;align-items:center;gap:1vw;font:600 1.25vw/1 var(--body);letter-spacing:.16em;text-transform:uppercase}
 .pill{padding:.55vw 1vw;border-radius:99px;background:var(--k);color:var(--bg)}
 .kicker .when{color:var(--k)}
+.kicker .repeat{color:var(--muted);display:flex;align-items:center;gap:1vw}
+.kicker .repeat::before{content:"";width:.4vw;height:.4vw;border-radius:50%;background:var(--muted)}
 .slide h1{margin:0;font:800 clamp(2rem,5.4vw,9rem)/1.02 var(--display);letter-spacing:-.02em;text-wrap:balance;max-width:20ch}
 .slide p{margin:0;font:400 clamp(1rem,2vw,3.2rem)/1.4 var(--body);color:var(--fg);opacity:.86;max-width:38ch;white-space:pre-line}
 .meta{display:flex;flex-wrap:wrap;gap:1.2vw 3vw;align-items:stretch}

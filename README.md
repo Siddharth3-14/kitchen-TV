@@ -49,6 +49,53 @@ Each item looks like this:
 | `qr` | no | A link to turn into a QR code, e.g. your Microsoft Forms or Google Forms sign-up link |
 | `qrLabel` | no | The text under the QR code. Defaults to "Scan to sign up". |
 
+### Background picture
+
+Put a picture in the `images` folder and add `background` at the top of `items.json`, next to `boardName`:
+
+```json
+{
+  "boardName": "Kitchen board",
+  "seconds": 12,
+  "background": "images/background.jpg",
+  "backgroundDim": 0.6,
+  "items": [ ... ]
+}
+```
+
+`backgroundDim` controls how much the picture is darkened so the text stays readable. Use `0` for no darkening and `0.9` for almost black. The default is `0.6`. Busy or bright photos need more, around `0.7`.
+
+A single slide can have its own background too. Add `"background": "images/julbord.jpg"` to that item, and optionally its own `"backgroundDim"`. The board fades between pictures as the slides change.
+
+Landscape pictures at 1920 × 1080 work best. Keep them under about 1 MB so the TV loads them quickly. If the picture can't be loaded, the board falls back to the plain green background.
+
+### Weekly and monthly events
+
+Add `"repeat"` to an event and leave out `date`. The board works out the next date by itself. It shows that date on the slide and in "Coming up", and moves on to the following date one hour after the start time.
+
+```json
+{ "type": "event", "title": "Journal Club", "repeat": "weekly", "day": "Wednesday", "time": "14:00", "place": "Green room" }
+```
+
+| Rule | Write it like this |
+|---|---|
+| Every Tuesday | `"repeat": "weekly", "day": "Tuesday"` |
+| Mondays and Thursdays | `"repeat": "weekly", "day": ["Monday", "Thursday"]` |
+| Every other Friday | `"repeat": "weekly", "every": 2, "day": "Friday", "date": "2026-11-06"` (the date is one of the Fridays it happens) |
+| First Friday of the month | `"repeat": "monthly", "week": "first", "day": "Friday"` |
+| Last Thursday of the month | `"repeat": "monthly", "week": "last", "day": "Thursday"` |
+| The 15th of every month | `"repeat": "monthly", "dayOfMonth": 15` |
+
+Days can be written in full or short (`"Tue"`). `week` can be `first`, `second`, `third`, `fourth` or `last`.
+
+Optional extras for repeating events:
+
+| Field | What it does |
+|---|---|
+| `date` | Start date. Nothing shows before it. Required for `"every": 2` and up. |
+| `until` | `YYYY-MM-DD`. Last possible date, e.g. the end of term. |
+| `skip` | Dates when it's cancelled, e.g. `["2026-12-22", "2026-12-29"]` over Christmas. |
+
 ### Adding a picture
 
 1. In the repository, open the `images` folder and choose **Add file → Upload files**.

@@ -3,19 +3,50 @@
   "seconds": 12,
   "items": [
     {
-      "type": "news",
-      "title": "MEOW every Tuesday 15:30",
+      "type": "event",
+      "title": "MEOW",
+      "repeat": "weekly",
+      "day": "Tuesday",
+      "time": "15:30",
       "place": "3ö lunch room"
-
     },
 
 
     {
       "type": "news",
-      "title": "AoP-Fika every Monday at 15:00",
-      "text": "Use the sign-up sheet in the kitchen.",
-      "place": "3ö lunch room"
+      "title": "Congratulations to Elvire and Wouter!",
+      "text": "Big congratulations to Elvire and Wouter for having been awarded VR project grants",
+      "showUntil": "2026-11-30"
+    },
 
+
+    {
+      "type": "event",
+      "title": "Burger day",
+      "repeat": "weekly",
+      "day": "Thursday",
+      "time": "12:00",
+      "place": "Cafe linsen"
+    },
+
+    {
+      "type": "event",
+      "title": "AoP-Fika",
+      "text": "Use the sign-up sheet in the kitchen.",
+      "repeat": "weekly",
+      "day": "Monday",
+      "time": "15:00",
+      "place": "3ö lunch room"
+    },
+    {
+      "type": "event",
+      "title": "Journal Club",
+      "repeat": "weekly",
+      "day": "Wednesday",
+      "time": "14:00",
+      "place": "Green room",
+      "qr": "https://www.benty-fields.com/",
+      "qrLabel": "Scan to sign up"
     },
 
     {
@@ -23,29 +54,13 @@
       "title": "AoP-fika",
       "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
       "date": "2026-11-04",
-      "time": "09:30 ",
-      "place": "Fysik Origo "
-    },
-
-    {
-      "type": "news",
-      "title": "Journal Club every Wednesday 14:00 in Green room"
+      "time": "09:30",
+      "place": "Fysik Origo"
     },
 
     {
       "type": "event",
-      "title": "FA-fika",
-      "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
-      "date": "2026-11-04",
-      "time": "09:30 ",
-      "place": "Fysik Origo ",
-      "qr": "https://example.com/marten-gas-signup",
-      "qrLabel": "Scan to sign up"
-    },
-
-    {
-      "type": "event",
-      "title": "Colloqium presented by Sarrvesh Sridhar (SKAO)",
+      "title": "Colloquium presented by Sarrvesh Sridhar (SKAO)",
       "text": "Title: Getting ready for science verification with the SKA",
       "date": "2026-11-04",
       "time": "10:30",
