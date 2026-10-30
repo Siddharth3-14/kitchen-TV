@@ -3,53 +3,22 @@
   "seconds": 12,
   "items": [
     {
+      "type": "news",
+      "title": "MEOW every Tuesday 1530"
+    },
+  
+    {
+      "type": "news",
+      "title": "Journal Club every Wednesday 1400"
+    },
+
+    {
       "type": "event",
-      "title": "Fire drill",
-      "text": "The alarm will sound for real. Leave by the nearest exit and meet at the assembly point by the car park.",
+      "title": "Colloqium presented by Sarrvesh Sridhar (SKAO)",
+      "text": "Title: Getting ready for science verification with the SKA",
       "date": "2026-11-04",
-      "time": "10:00",
-      "place": "Whole building"
-    },
-    {
-      "type": "news",
-      "title": "Clocks went back. Bike lights on.",
-      "text": "It is dark by half past four now. Lights front and back on the way home, please.",
-      "showUntil": "2026-11-15"
-    },
-    {
-      "type": "event",
-      "title": "Fika Friday",
-      "text": "Cinnamon buns and coffee for everyone. Bring a mug.",
-      "date": "2026-11-06",
-      "time": "15:00",
-      "place": "Big kitchen",
-      "image": "images/fika.svg",
-      "imageAlt": "A cup of coffee and a cinnamon bun"
-    },
-    {
-      "type": "news",
-      "title": "Last one out starts the dishwasher",
-      "text": "Tablets are in the cupboard left of the sink. Empty it if it's clean."
-    },
-    {
-      "type": "event",
-      "title": "Mårten Gås lunch",
-      "text": "Black soup and goose, with a vegetarian option. Sign up by Monday 9 November.",
-      "date": "2026-11-11",
-      "time": "12:00",
-      "place": "Restaurant around the corner",
-      "qr": "https://example.com/marten-gas-signup",
-      "qrLabel": "Scan to sign up"
-    },
-    {
-      "type": "event",
-      "title": "Julbord",
-      "text": "The Christmas dinner. Save the evening, invitation follows.",
-      "date": "2026-12-11",
-      "time": "18:00",
-      "place": "To be announced",
-      "qr": "https://example.com/julbord-rsvp",
-      "qrLabel": "Scan to RSVP"
+      "time": "10:30",
+      "place": "Room EE"
     }
   ]
 }
