@@ -1,54 +1,103 @@
 {
-  "boardName": "Kitchen board",
+  "boardName": "Kitchen board Astronomi och Plasma",
   "seconds": 12,
   "items": [
     {
       "type": "event",
-      "title": "Fire drill",
-      "text": "The alarm will sound for real. Leave by the nearest exit and meet at the assembly point by the car park.",
-      "date": "2026-11-04",
-      "time": "10:00",
-      "place": "Whole building"
+      "title": "MEOW",
+      "repeat": "weekly",
+      "day": "Tuesday",
+      "time": "15:30",
+      "place": "3ö lunch room"
     },
+
+
     {
       "type": "news",
-      "title": "Clocks went back. Bike lights on.",
-      "text": "It is dark by half past four now. Lights front and back on the way home, please.",
-      "showUntil": "2026-11-15"
+      "title": "Congratulations to Elvire and Wouter!",
+      "text": "Big congratulations to Elvire and Wouter for having been awarded VR project grants",
+      "showUntil": "2026-11-30"
+    },
+
+
+    {
+      "type": "event",
+      "title": "Burger day",
+      "text": "Every Thursday only at Cafe Linsen!",
+      "repeat": "weekly",
+      "day": "Thursday",
+      "time": "12:00",
+      "place": "Cafe linsen"
+    },
+
+    {
+      "type": "event",
+      "title": "AoP-Fika",
+      "text": "Use the sign-up sheet in the kitchen.",
+      "repeat": "weekly",
+      "day": "Monday",
+      "time": "15:00",
+      "place": "3ö lunch room"
     },
     {
       "type": "event",
-      "title": "Fika Friday",
-      "text": "Cinnamon buns and coffee for everyone. Bring a mug.",
-      "date": "2026-11-06",
-      "time": "15:00",
-      "place": "Big kitchen",
-      "image": "images/fika.svg",
-      "imageAlt": "A cup of coffee and a cinnamon bun"
+      "title": "Journal Club",
+      "repeat": "weekly",
+      "day": "Wednesday",
+      "time": "14:00",
+      "place": "Green room",
+      "qr": "https://www.benty-fields.com/",
+      "qrLabel": "Scan to sign up"
     },
-    {
-      "type": "news",
-      "title": "Last one out starts the dishwasher",
-      "text": "Tablets are in the cupboard left of the sink. Empty it if it's clean."
-    },
+
     {
       "type": "event",
       "title": "FA-fika",
       "text": "As a way of getting to know each other at the department better, we are launching the informal meeting space FA-fika!",
       "date": "2026-11-04",
-      "time": "09:30 ",
-      "place": "Fysik Origo ",
-      "qr": "https://example.com/marten-gas-signup",
-      "qrLabel": "Scan to sign up"
+      "time": "09:30",
+      "place": "Fysik Origo"
     },
+
     {
       "type": "event",
-      "title": "AoP Julbord",
+      "title": "Christmas dinner",
       "date": "2026-12-09",
       "time": "18:00",
-      "place": "Villa Belparc",
+      "place": "Restaurant Villa Belparc",
       "qr": "https://polls.portal.chalmers.se/polls/bb4d0a4c2d777585d145",
-      "qrLabel": "Scan to RSVP"
+      "qrLabel": "Scan to sign up"
+    },
+
+
+
+    {
+      "type": "event",
+      "title": "Colloquium presented by Luis Bermudez (Chalmers)",
+      "text": "Title: Dust Formation During Common-Envelope Evolution: Implications for the Outflows and Observational Appearance of Binary Stars",
+      "date": "2026-11-11",
+      "time": "10:30",
+      "place": "Room EE"
+    },
+
+
+
+    {
+      "type": "event",
+      "title": "Seminar talk presented by Dr. Minghui Xu (GFZ Helmholtz Centre for Geosciences)",
+      "text": "Title: Dust Formation During Common-Envelope Evolution: Implications for the Outflows and Observational Appearance of Binary Stars",
+      "date": "2026-11-23",
+      "time": "13:15",
+      "place": "Room EL52"
+    },
+  
+      {
+      "type": "event",
+      "title": "LunchBunch seminar by Nobel prize laureate Anne L'Huillier (Lund)",
+      "text": "Title: From my grandfather's radio instruments to the Nobel Prize",
+      "date": "2026-11-19",
+      "time": "12:00",
+      "place": "Gustaf Dalén-salen"
     }
   ]
 }

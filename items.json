@@ -2,15 +2,6 @@
   "boardName": "Kitchen board Astronomi och Plasma",
   "seconds": 12,
   "items": [
-    {
-      "type": "event",
-      "title": "MEOW",
-      "repeat": "weekly",
-      "day": "Tuesday",
-      "time": "15:30",
-      "place": "3ö lunch room"
-    },
-
 
     {
       "type": "news",
@@ -19,15 +10,52 @@
       "showUntil": "2026-11-30"
     },
 
+    {
+      "type": "event",
+      "title": "Christmas dinner",
+      "date": "2026-12-09",
+      "time": "18:00",
+      "place": "Restaurant Villa Belparc",
+      "qr": "https://polls.portal.chalmers.se/polls/bb4d0a4c2d777585d145",
+      "qrLabel": "Scan to sign up"
+    },
+
+
 
     {
       "type": "event",
-      "title": "Burger day",
-      "text": "Every Thursday only at Cafe Linsen!",
-      "repeat": "weekly",
-      "day": "Thursday",
+      "title": "Colloquium presented by Job Vorster (University of Helsinki)",
+      "text": "Title: Resolving protoplanetary dust transport in the first 100 000 years with JWST/MIRI",
+      "date": "2026-11-15",
+      "time": "10:30",
+      "place": "Room EE"
+    },
+
+    {
+      "type": "event",
+      "title": "Seminar talk presented by Dr. Minghui Xu (GFZ Helmholtz Centre for Geosciences)",
+      "text": "Title: Dust Formation During Common-Envelope Evolution: Implications for the Outflows and Observational Appearance of Binary Stars",
+      "date": "2026-11-23",
+      "time": "13:15",
+      "place": "Room EL52"
+    },
+  
+      {
+      "type": "event",
+      "title": "LunchBunch seminar by Nobel prize laureate Anne L'Huillier (Lund)",
+      "text": "Title: From my grandfather's radio instruments to the Nobel Prize",
+      "date": "2026-11-19",
       "time": "12:00",
-      "place": "Cafe linsen"
+      "place": "Gustaf Dalén-salen"
+    },
+
+        {
+      "type": "event",
+      "title": "MEOW",
+      "repeat": "weekly",
+      "day": "Tuesday",
+      "time": "15:30",
+      "place": "3ö lunch room"
     },
 
     {
@@ -59,45 +87,14 @@
       "place": "Fysik Origo"
     },
 
-    {
-      "type": "event",
-      "title": "Christmas dinner",
-      "date": "2026-12-09",
-      "time": "18:00",
-      "place": "Restaurant Villa Belparc",
-      "qr": "https://polls.portal.chalmers.se/polls/bb4d0a4c2d777585d145",
-      "qrLabel": "Scan to sign up"
-    },
-
-
-
-    {
-      "type": "event",
-      "title": "Colloquium presented by Luis Bermudez (Chalmers)",
-      "text": "Title: Dust Formation During Common-Envelope Evolution: Implications for the Outflows and Observational Appearance of Binary Stars",
-      "date": "2026-11-11",
-      "time": "10:30",
-      "place": "Room EE"
-    },
-
-
-
-    {
-      "type": "event",
-      "title": "Seminar talk presented by Dr. Minghui Xu (GFZ Helmholtz Centre for Geosciences)",
-      "text": "Title: Dust Formation During Common-Envelope Evolution: Implications for the Outflows and Observational Appearance of Binary Stars",
-      "date": "2026-11-23",
-      "time": "13:15",
-      "place": "Room EL52"
-    },
-  
       {
       "type": "event",
-      "title": "LunchBunch seminar by Nobel prize laureate Anne L'Huillier (Lund)",
-      "text": "Title: From my grandfather's radio instruments to the Nobel Prize",
-      "date": "2026-11-19",
+      "title": "Burger day",
+      "text": "Every Thursday only at Cafe Linsen!",
+      "repeat": "weekly",
+      "day": "Thursday",
       "time": "12:00",
-      "place": "Gustaf Dalén-salen"
+      "place": "Cafe linsen"
     }
   ]
 }
