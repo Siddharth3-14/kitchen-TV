@@ -20,13 +20,11 @@
       "qrLabel": "Scan to sign up"
     },
 
-
-
     {
       "type": "event",
       "title": "Colloquium presented by Job Vorster (University of Helsinki)",
       "text": "Title: Resolving protoplanetary dust transport in the first 100 000 years with JWST/MIRI",
-      "date": "2026-11-15",
+      "date": "2026-11-25",
       "time": "10:30",
       "place": "Room EE"
     },
@@ -40,7 +38,7 @@
       "place": "Room EL52"
     },
   
-      {
+    {
       "type": "event",
       "title": "LunchBunch seminar by Nobel prize laureate Anne L'Huillier (Lund)",
       "text": "Title: From my grandfather's radio instruments to the Nobel Prize",
